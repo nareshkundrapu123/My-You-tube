@@ -19,7 +19,7 @@ const Sidebar = () => {
         <li className=' hover:bg-gray-300 rounded-lg'>Music</li>
         <li className=' hover:bg-gray-300 rounded-lg'>Sports</li>
         <li className=' hover:bg-gray-300 rounded-lg'>Gaming</li>
-        <li> className=' hover:bg-gray-300 rounded-lg'Movies</li>
+        <li className=' hover:bg-gray-300 rounded-lg'>Movies</li>
       </ul>
       <h1 className='font-bold pt-2'>Watch later</h1>
       <ul>
