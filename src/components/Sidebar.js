@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
 
@@ -9,8 +10,10 @@ const Sidebar = () => {
   return (
     <div className='p-5 shadow-lg w-48 scroll-my-10'>
         <ul >
-            <li className=' hover:bg-gray-300 rounded-lg'>Home</li>
-            <li className=' hover:bg-gray-300 rounded-lg'>Shorts</li>
+            <li className=' hover:bg-gray-300 rounded-lg'>
+              <Link to={"/"}>Home</Link>
+            </li>          
+  <li className=' hover:bg-gray-300 rounded-lg'>Shorts</li>
             <li className=' hover:bg-gray-300 rounded-lg'>Videos</li>
             <li className=' hover:bg-gray-300 rounded-lg'>Live</li>
         </ul>
