@@ -19,4 +19,12 @@ const VideoList = ({info}) => {
   )
 }
 
+export const Addvideocard=({info})=>{
+  return(
+    <div className='p-1 m-1 border border-red-800 rounded-lg'>
+      <VideoList info={info}/>
+    </div>
+  )
+}
+
 export default VideoList
